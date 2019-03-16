@@ -3,7 +3,7 @@ Config = {}
 
 
 Config.lang = 'de' 
--- possible yet is en, de, fr
+-- possible yet is en, de
 Config.noPirates = true --does kick players that has a cracked version of GTA.
 
 Config.Mpos = 'left-top' --possible is 'left-top', 'right-top', 'center-top'
