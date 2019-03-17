@@ -6,183 +6,183 @@ x2, y2, z2 = table.unpack( GetEntityCoords( GetPlayerPed( -1 ), true ) ) --used 
 		
 gz = GetNameOfZone(x2, y2, z2)
 		
-if gz == "AIRP" and Config.lang == 'en' or 'de' then
+if gz == "AIRP" then
  zones = "Los Santos International Airport"
-elseif gz == "ALAMO" and Config.lang == 'en' or 'de' then
+elseif gz == "ALAMO" then
  zones = "Alamo Sea"  
-elseif gz == "ALTA" and Config.lang == 'en' or 'de' then 
+elseif gz == "ALTA" then 
  zones = "Alta"  
-elseif gz == "ARMYB" and Config.lang == 'en' or 'de' then 
+elseif gz == "ARMYB" then 
  zones = "Fort Zancudo"  
-elseif gz == "BANHAMC" and Config.lang == 'en' or 'de' then 
+elseif gz == "BANHAMC" then 
  zones = "Banham Canyon Dr"  
-elseif gz == "BANNING" and Config.lang == 'en' or 'de' then
+elseif gz == "BANNING" then
  zones = "Banning"  
-elseif gz == "BEACH" and Config.lang == 'en' or 'de' then
+elseif gz == "BEACH" then
  zones = "Vespucci Beach"  
-elseif gz == "BHAMCA" and Config.lang == 'en' or 'de' then 
+elseif gz == "BHAMCA" then 
  zones = "Banham Canyon"  
-elseif gz == "BRADP" and Config.lang == 'en' or 'de' then
+elseif gz == "BRADP" then
 zones = "Braddock Pass"  
-elseif gz == "BRADT" and Config.lang == 'en' or 'de' then
+elseif gz == "BRADT" then
 zones = "Braddock Tunnel"  
-elseif gz == "BURTON" and Config.lang == 'en' or 'de' then
+elseif gz == "BURTON" then
 zones = "Burton"  
- elseif gz == "CALAFB" and Config.lang == 'en' or 'de' then
+ elseif gz == "CALAFB" then
 zones = "Calafia Bridge"  
-elseif gz == "CANNY" and Config.lang == 'en' or 'de' then
+elseif gz == "CANNY" then
 zones = "Raton Canyon"  
-elseif gz == "CCREAK" and Config.lang == 'en' or 'de' then
+elseif gz == "CCREAK" then
 zones = "Cassidy Creek"  
-elseif gz == "CHAMH" and Config.lang == 'en' or 'de' then
+elseif gz == "CHAMH" then
 zones = "Chamberlain Hills"  
-elseif gz == "CHIL" and Config.lang == 'en' or 'de' then
+elseif gz == "CHIL" then
 zones = "Vinewood Hills"  
-elseif gz == "CHU" and Config.lang == 'en' or 'de' then
+elseif gz == "CHU" then
 zones = "Chumash"  
-elseif gz == "CMSW" and Config.lang == 'en' or 'de' then
+elseif gz == "CMSW" then
 zones = "Chiliad Mountain State Wilderness"  
-elseif gz == "CYPRE" and Config.lang == 'en' or 'de' then
+elseif gz == "CYPRE" then
 zones = "Cypress Flats"  
-elseif gz == "DAVIS" and Config.lang == 'en' or 'de' then
+elseif gz == "DAVIS" then
 zones = "Davis"  
-elseif gz == "DELBE" and Config.lang == 'en' or 'de' then
+elseif gz == "DELBE" then
 zones = "Del Perro Beach"  
-elseif gz == "DELPE" and Config.lang == 'en' or 'de' then
+elseif gz == "DELPE" then
 zones = "Del Perro"  
-elseif gz == "DELSOL" and Config.lang == 'en' or 'de' then
+elseif gz == "DELSOL" then
 zones = "La Puerta"  
-elseif gz == "DESRT" and Config.lang == 'en' or 'de' then
+elseif gz == "DESRT" then
 zones = "Grand Senora Desert"  
-elseif gz == "DOWNT" and Config.lang == 'en' or 'de' then
+elseif gz == "DOWNT" then
 zones = "Downtown"  
-elseif gz == "DTVINE" and Config.lang == 'en' or 'de' then
+elseif gz == "DTVINE" then
 zones = "Downtown Vinewood"  
-elseif gz == "EAST_V" and Config.lang == 'en' or 'de' then
+elseif gz == "EAST_V" then
 zones = "East Vinewood"  
-elseif gz == "EBURO" and Config.lang == 'en' or 'de' then
+elseif gz == "EBURO" then
 zones = "El Burro Heights"  
-elseif gz == "ELGORL" and Config.lang == 'en' or 'de' then
+elseif gz == "ELGORL" then
 zones = "El Gordo Lighthouse"  
-elseif gz == "ELYSIAN" and Config.lang == 'en' or 'de' then
+elseif gz == "ELYSIAN" then
 zones = "Elysian Island"  
-elseif gz == "GALFISH" and Config.lang == 'en' or 'de' then
+elseif gz == "GALFISH" then
 zones = "Galilee"  
-elseif gz == "GOLF" and Config.lang == 'en' or 'de' then
+elseif gz == "GOLF" then
 zones = "GWC and Golfing Society"  
-elseif gz == "GRAPES" and Config.lang == 'en' or 'de'then
+elseif gz == "GRAPES" then
 zones = "Grapeseed"  
-elseif gz == "GREATC" and Config.lang == 'en' or 'de' then
+elseif gz == "GREATC" then
 zones = "Great Chaparral"  
-elseif gz == "HARMO" and Config.lang == 'en' or 'de' then
+elseif gz == "HARMO" then
 zones = "Harmony"  
-elseif gz == "HAWICK" and Config.lang == 'en' or 'de' then
+elseif gz == "HAWICK" then
 zones = "Hawick"  
-elseif gz == "HORS" and Config.lang == 'en' or 'de' then
+elseif gz == "HORS" then
 zones = "Vinewood Racetrack"  
-elseif gz == "HUMLAB" and Config.lang == 'en' or 'de' then
+elseif gz == "HUMLAB" then
 zones = "Humane Labs and Research"  
-elseif gz == "JAIL" and Config.lang == 'en' or 'de' then
+elseif gz == "JAIL" then
 zones = "Bolingbroke Penitentiary"  
-elseif gz == "KOREAT" and Config.lang == 'en' or 'de' then
+elseif gz == "KOREAT" then
 zones = "Little Seoul"  
-elseif gz == "LACT" and Config.lang == 'en' or 'de' then
+elseif gz == "LACT" then
 zones = "Land Act Reservoir"  
-elseif gz == "LAGO" and Config.lang == 'en' or 'de' then
+elseif gz == "LAGO" then
 zones = "Lago Zancudo"  
-elseif gz == "LDAM" and Config.lang == 'en' or 'de' then
+elseif gz == "LDAM" then
 zones = "Land Act Dam"  
-elseif gz == "LEGSQU" and Config.lang == 'en' or 'de'then
+elseif gz == "LEGSQU" then
 zones = "Legion Square"  
-elseif gz == "LMESA" and Config.lang == 'en' or 'de' then
+elseif gz == "LMESA" then
 zones = "La Mesa"  
-elseif gz == "LOSPUER" and Config.lang == 'en' or 'de' then
+elseif gz == "LOSPUER" then
 zones = "La Puerta"  
-elseif gz == "MIRR" and Config.lang == 'en' or 'de' then
+elseif gz == "MIRR" then
 zones = "Mirror Park"  
-elseif gz == "MORN" and Config.lang == 'en' or 'de' then
+elseif gz == "MORN" then
 zones = "Morningwood"  
-elseif gz == "MOVIE" and Config.lang == 'en' or 'de' then
+elseif gz == "MOVIE" then
 zones = "Richards Majestic"  
-elseif gz == "MTCHIL" and Config.lang == 'en' or 'de' then
+elseif gz == "MTCHIL" then
 zones = "Mount Chiliad"  
-elseif gz == "MTGORDO" and Config.lang == 'en' or 'de' then
+elseif gz == "MTGORDO" then
 zones = "Mount Gordo"  
-elseif gz == "MTJOSE" and Config.lang == 'en' or 'de' then
+elseif gz == "MTJOSE" then
 zones = "Mount Josiah"  
-elseif gz == "MURRI" and Config.lang == 'en' or 'de' then
+elseif gz == "MURRI" then
 zones = "Murrieta Heights"  
-elseif gz == "NCHU" and Config.lang == 'en' or 'de' then
+elseif gz == "NCHU" then
 zones = "North Chumash"  
-elseif gz == "NOOSE" and Config.lang == 'en' or 'de'then
+elseif gz == "NOOSE" then
 zones = "N.O.O.S.E"  
-elseif gz == "OCEANA" and Config.lang == 'en' or 'de' then
+elseif gz == "OCEANA" then
 zones = "Pacific Ocean"  
-elseif gz == "PALCOV" and Config.lang == 'en' or 'de' then
+elseif gz == "PALCOV" then
 zones = "Paleto Cove"  
-elseif gz == "PALETO" and Config.lang == 'en' or 'de' then
+elseif gz == "PALETO" then
 zones = "Paleto Bay"  
-elseif gz == "PALFOR" and Config.lang == 'en' or 'de' then
+elseif gz == "PALFOR" then
 zones = "Paleto Forest"  
-elseif gz == "PALHIGH" and Config.lang == 'en' or 'de' then
+elseif gz == "PALHIGH" then
 zones = "Palomino Highlands"  
-elseif gz == "PALMPOW" and Config.lang == 'en' or 'de' then
+elseif gz == "PALMPOW" then
 zones = "Palmer-Taylor Power Station"  
-elseif gz == "PBLUFF" and Config.lang == 'en' or 'de' then 
+elseif gz == "PBLUFF" then 
 zones = "Pacific Bluffs"  
-elseif gz == "PBOX" and Config.lang == 'en' or 'de' then
+elseif gz == "PBOX" then
 zones = "Pillbox Hill"  
-elseif gz == "PROCOB" and Config.lang == 'en' or 'de' then
+elseif gz == "PROCOB" then
 zones = "Procopio Beach"  
-elseif gz == "RANCHO" and Config.lang == 'en' or 'de' then
+elseif gz == "RANCHO" then
 zones = "Rancho"  
-elseif gz == "RGLEN" and Config.lang == 'en' or 'de' then
+elseif gz == "RGLEN" then
 zones = "Richman Glen"  
-elseif gz == "RICHM" and Config.lang == 'en' or 'de' then
+elseif gz == "RICHM" then
 zones = "Richman"  
-elseif gz == "ROCKF" and Config.lang == 'en' or 'de' then
+elseif gz == "ROCKF" then
 zones = "Rockford Hills"  
-elseif gz == "RTRAK" and Config.lang == 'en' or 'de' then
+elseif gz == "RTRAK" then
 zones = "Redwood Lights Track"  
-elseif gz == "SANAND" and Config.lang == 'en' or 'de' then
+elseif gz == "SANAND" then
 zones = "San Andreas"  
-elseif gz == "SANCHIA" and Config.lang == 'en' or 'de' then
+elseif gz == "SANCHIA" then
 zones = "San Chianski Mountain Range"  
-elseif gz == "SANDY" and Config.lang == 'en' or 'de' then
+elseif gz == "SANDY" then
 zones = "Sandy Shores"  
-elseif gz == "SKID" and Config.lang == 'en' or 'de' then
+elseif gz == "SKID" then
 zones = "Mission Row"  
-elseif gz == "SLAB" and Config.lang == 'en' or 'de' then
+elseif gz == "SLAB" then
 zones = "Stab City"  
-elseif gz == "STAD" and Config.lang == 'en' or 'de' then
+elseif gz == "STAD" then
 zones = "Maze Bank Arena"  
-elseif gz == "STRAW" and Config.lang == 'en' or 'de' then
+elseif gz == "STRAW" then
 zones = "Strawberry"  
-elseif gz == "TATAMO" and Config.lang == 'en' or 'de' then
+elseif gz == "TATAMO" then
 zones = "Tataviam Mountains"  
-elseif gz == "TERMINA" and Config.lang == 'en' or 'de' then
+elseif gz == "TERMINA" then
 zones= "Terminal"  
-elseif gz == "TEXTI" and Config.lang == 'en' or 'de' then
+elseif gz == "TEXTI" then
 zones = "Textile City"  
-elseif gz == "TONGVAH" and Config.lang == 'en' or 'de' then
+elseif gz == "TONGVAH" then
 zones = "Tongva Hills"  
-elseif gz == "TONGVAV" and Config.lang == 'en' or 'de' then
+elseif gz == "TONGVAV" then
 zones = "Tongva Valley"  
-elseif gz == "VCANA" and Config.lang == 'en' or 'de' then
+elseif gz == "VCANA" then
 zones = "Vespucci Canals"  
-elseif gz == "VESP" and Config.lang == 'en' or 'de' then
+elseif gz == "VESP" then
 zones = "Vespucci"  
-elseif gz == "VINE" and Config.lang == 'en' or 'de' then
+elseif gz == "VINE" then
 zones = "Vinewood"  
-elseif gz == "WINDF" and Config.lang == 'en' or 'de' then
+elseif gz == "WINDF" then
 zones = "Ron Alternates Wind Farm"
-elseif gz == "WVINE" and Config.lang == 'en' or 'de' then
+elseif gz == "WVINE" then
 zones = "West Vinewood"
-elseif gz == "ZANCUDO" and Config.lang == 'en' or 'de' then
+elseif gz == "ZANCUDO" then
 zones = "Zancudo River"
-elseif gz == "ZP_ORT" and Config.lang == 'en' or 'de' then
+elseif gz == "ZP_ORT" then
 zones = "Port of South Los Santos"
-elseif gz == "ZQ_UAR" and Config.lang == 'en' or 'de' then
+elseif gz == "ZQ_UAR" then
 zones = "Davis Quartz"
 else
  zones = "unknown"
