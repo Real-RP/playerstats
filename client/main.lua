@@ -5,11 +5,6 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
 		
-if not IsDuplicityVersion then		
-if Config.noPirates == true then --double check, if he has a bypass, he will get kicked when he is spawned.
-TriggerServerEvent("kickForPirates")
-	end
-end
 if Config.NoHacks == true then
 if CanPlayOnline == 0 then
 TriggerServerEvent("kickForBanned")
