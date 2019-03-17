@@ -9,13 +9,14 @@ AddEventHandler("playerConnecting", function(name, setCallback, deferrals)
     if IsDuplicityVersion(source) then
         deferrals.done()
     else
-        deferrals.done("You can't play with a pirate version on this server!") 
+        deferrals.done("You can't play with a pirate version on this server!") -- does not work and will get changed soon.
 		end
 	end
 end)	
 		
 		
 _source = source
+
 
 
 	
@@ -25,8 +26,7 @@ _source = source
 		
 		if err == 200 then
 			local data = json.decode(response)
-			if curVersion ~= data.version  and tonumber(curVersion) < tonumber(data.version) then
-				if curVersion ~= '0.0' then
+			if curVersion ~= data.version  and tonumber(curVersion) < tonumber(data.version) and curVersion ~= "0.0" then
 				print("\n--------------------------------------------------------------------------")
 				print("\nplayerstats is outdated.\nCurrent Version: "..data.version.."\nYour Version: "..curVersion.."\nplease update it as soon as possible from https://github.com/Real-RP/playerstats")
 				print("\n--------------------------------------------------------------------------")
@@ -49,7 +49,6 @@ _source = source
 		end
 		
 		SetTimeout(3600000, checkcurVersion)
-		end
 	end
 	
 	function checkcurVersion()
